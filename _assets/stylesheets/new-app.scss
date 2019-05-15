@@ -157,6 +157,13 @@ section{
   padding-bottom:0px;
 }
 
+.content {
+  padding-top:0px;
+  h2,h3,h4,h5{
+    margin: 64px 0 16px;
+  }
+}
+
 .no-padding img {
   margin-bottom: 0px;
 }
@@ -187,7 +194,19 @@ section{
     color: rgba(255,255,255,0.7);
   }
 }
+.logo:hover{
+  animation: roll 1s infinite;
+  transform: rotate(15deg);
+}
 
+@keyframes roll {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 
 
 h1 .letter {
