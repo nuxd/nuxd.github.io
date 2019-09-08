@@ -246,3 +246,10 @@ html.sr .reveal {
 .nav{
     justify-content: flex-end;
 }
+
+@media (max-width: 768px) {
+
+  .intro .row {
+    flex-direction: column-reverse;
+  }
+}
